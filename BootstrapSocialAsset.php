@@ -1,6 +1,6 @@
 <?php
 
-namespace app\assets;
+namespace denostr\BootstrapSocial;
 
 use yii\web\AssetBundle;
 
