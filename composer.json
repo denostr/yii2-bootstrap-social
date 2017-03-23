@@ -23,7 +23,7 @@
     "keywords": ["yii", "yii2", "bootstrap", "social", "asset", "bundle"],
     "autoload": {
         "psr-4": {
-            "denostr\\BootstrapSocial": ""
+            "denostr\\BootstrapSocial\\": ""
         }
     }
 }
