@@ -1,10 +1,18 @@
 <?php
+/**
+ * BootstrapSocialAsset.php
+ * @author Denis Ostrovsky
+ * @link https://github.com/denostr
+ */
 
 namespace denostr\BootstrapSocial;
 
-use yii\web\AssetBundle;
-
-class BootstrapSocialAsset extends AssetBundle
+/**
+ * Class BootstrapSocialAsset
+ * @package denostr\BootstrapSocial
+ * @link https://github.com/denostr/yii2-bootstrap-social
+ */
+class BootstrapSocialAsset extends yii\web\AssetBundle
 {
     public $sourcePath = '@bower/bootstrap-social';
 
