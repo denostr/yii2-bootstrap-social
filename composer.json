@@ -1,0 +1,19 @@
+{
+    "name": "den-ost/yii2-bootstrap-social",
+    "description": "Asset Bundle for Yii2 with bootstrap-social https://lipis.github.io/bootstrap-social/",
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.3",
+        "yiisoft/yii2": "2.0.*",
+        "rmrevin/yii2-fontawesome": "~2.17"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Ostrovsky",
+            "email": "ostrovsky.dennis@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "keywords": ["yii", "yii2", "bootstrap", "social", "asset", "bundle"]
+}
