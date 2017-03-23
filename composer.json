@@ -3,10 +3,10 @@
     "description": "Asset Bundle for Yii2 with bootstrap-social https://lipis.github.io/bootstrap-social/",
     "type": "yii2-extension",
     "require": {
-        "php": ">=5.3",
+        "php": ">=5.4",
         "yiisoft/yii2": "2.0.*",
         "rmrevin/yii2-fontawesome": "~2.17",
-        "bower-asset/bootstrap-social": "~5.1.1"
+        "bower-asset/bootstrap-social": "~5.0.0"
     },
     "license": "MIT",
     "authors": [
@@ -20,5 +20,10 @@
         "source": "https://github.com/denostr/yii2-bootstrap-social"
     },
     "minimum-stability": "stable",
-    "keywords": ["yii", "yii2", "bootstrap", "social", "asset", "bundle"]
+    "keywords": ["yii", "yii2", "bootstrap", "social", "asset", "bundle"],
+    "autoload": {
+        "psr-4": {
+            "denostr\\BootstrapSocial": ""
+        }
+    }
 }

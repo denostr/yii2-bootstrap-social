@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ba854c9c47d25cd027e0d568f9fb25d",
+    "content-hash": "ce5f3530d6b9929288931fcc07c9ca7e",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -57,21 +57,21 @@
         },
         {
             "name": "bower-asset/bootstrap-social",
-            "version": "5.1.1",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lipis/bootstrap-social.git",
-                "reference": "8b7618556d386d3fecf4b37783e20f2090cb4fd0"
+                "reference": "90826fa078a9a13a679928a0439fc28cbe2706a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lipis/bootstrap-social/zipball/8b7618556d386d3fecf4b37783e20f2090cb4fd0",
-                "reference": "8b7618556d386d3fecf4b37783e20f2090cb4fd0",
+                "url": "https://api.github.com/repos/lipis/bootstrap-social/zipball/90826fa078a9a13a679928a0439fc28cbe2706a6",
+                "reference": "90826fa078a9a13a679928a0439fc28cbe2706a6",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/bootstrap": "~3",
-                "bower-asset/font-awesome": "~4.7"
+                "bower-asset/font-awesome": "~4.5"
             },
             "type": "bower-asset-library",
             "extra": {
@@ -638,7 +638,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.3"
+        "php": ">=5.4"
     },
     "platform-dev": []
 }
